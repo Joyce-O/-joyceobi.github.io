@@ -140,6 +140,15 @@ body{
 
 .post-tag{background: var(--bg-color); color:var(--primary-font-color); padding: 5px 10px;}
 
+.back {
+  width: 100%; 
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between; 
+}
+#rotate-rainbow {
+  transform: rotate(90deg);
+}
 .profile{
   width: 100%; 
   display: flex; 
