@@ -7,7 +7,7 @@ timezone: WAT
 repo: 'https://github.com/Joyce-O/-joyceobi.github.io'
 google_verify: XXX
 google_analytics: UA-XXXXXXXX-00
-discus-identifier: XXX
+discus-identifier: ''
 author:
   name: Joyce Obi
   bio: Software Developer <br> Recurser @TheRecurseCenter
