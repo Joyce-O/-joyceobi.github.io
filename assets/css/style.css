@@ -172,6 +172,49 @@ body{
 .text-right{text-align: right;}
 .w-100{width: 100%!important;}
 
+.markdown:not(.converted) {
+  opacity: 0.5;
+  white-space: pre-wrap;
+}
+.sidenav {
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 200px;
+  left: 5px;
+  right: 20px;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav li {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 1em;
+  color: #5e5e61;
+  display: block;
+  margin-right: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+.sidenav li:hover {
+  background-color: rgba(201, 201, 201, 0.575);
+  color: #999;
+}
+
+.sidenav li:active {
+  background-color: #933;
+  color: rgb(255, 255, 255);
+}
+.striped-border { 
+  border: 1px dashed rgb(243, 156, 156);
+  width: 60%; margin: auto; 
+  margin-top: 5%; margin-bottom: 5%; 
+}
+
 a:hover{text-decoration: none;}
 a{color: var(--primary-font-color); text-decoration: none;}
 img{max-width: 100%;}
@@ -198,6 +241,11 @@ pre{font-size: 14px; max-width: 90vw; overflow: auto;}
   }
   h1{font-size: 1.5rem;}
   .profile-image{width: 96px; height: 96px;}
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
 [data-theme="dark"] .social-icon{filter: invert(100%) sepia(50%) saturate(0%) hue-rotate(360deg) brightness(100%) contrast(100%);}
